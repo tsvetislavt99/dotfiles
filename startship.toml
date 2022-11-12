@@ -1,7 +1,6 @@
 # Get editor completions based on the config schema
 "$schema" = 'https://starship.rs/config-schema.json'
 
-
 # Inserts a blank line between shell prompts
 add_newline = false
 
@@ -15,7 +14,7 @@ disabled = true
 
 [hostname]
 ssh_only = false
-format = "[⚡️](bold #F3FF00)[$hostname](bold #0200FF)[ ⤑](bold #F3FF00) "
+format = "[⚡️](bold #F3FF00)[懲](bold #34bdeb)[Shamana's Totem](bold #0200FF)[ ](bold #e66363)[ ](bold #79e663)[ ⤑](bold #F3FF00) "
 trim_at = "."
 disabled = false
 
@@ -41,3 +40,7 @@ modified = "📝"
 staged = '[++\($count\)](#02FF00)'
 renamed = "👅"
 deleted = "🗑"
+
+[time]
+disabled = false
+format = "[at 🕒 $time](#F3FF00) "
